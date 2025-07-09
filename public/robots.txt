@@ -1,0 +1,11 @@
+
+User-agent: *
+Allow: /
+Sitemap: https://brightfuturesfoundation.online/sitemap.xml
+
+# Optimize crawling for foundation content
+Crawl-delay: 5
+
+# Block unnecessary paths
+Disallow: /api/
+Disallow: /*.json$
