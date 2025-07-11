@@ -17,14 +17,14 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Phone",
-      details: ["+256 755 122707", "+256 706 896040"],
+      details: ["+256 727 129252"],
       color: "bg-blue-100 text-blue-600",
       onClick: () => redirectToWhatsApp("general")
     },
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      details: ["brightfuturesfoundationuganda@gmail.com"],
+      details: ["brightfuturesfoundation9@gmail.com"],
       color: "bg-green-100 text-green-600",
       onClick: () => redirectToWhatsApp("general")
     },
@@ -140,7 +140,7 @@ const Contact = () => {
                       <Mail className="w-5 h-5 text-blue-600 mr-3" />
                       <div className="text-left">
                         <h4 className="font-semibold text-blue-900">General Inquiries</h4>
-                        <p className="text-blue-700 text-sm">brightfuturesfoundationuganda@gmail.com</p>
+                        <p className="text-blue-700 text-sm">brightfuturesfoundation9@gmail.com</p>
                       </div>
                     </button>
                     <button 
@@ -150,7 +150,7 @@ const Contact = () => {
                       <Phone className="w-5 h-5 text-green-600 mr-3" />
                       <div className="text-left">
                         <h4 className="font-semibold text-green-900">Emergency Contact</h4>
-                        <p className="text-green-700 text-sm">+256 755 122707</p>
+                        <p className="text-green-700 text-sm">+256 727 129252</p>
                       </div>
                     </button>
                   </div>

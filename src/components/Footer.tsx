@@ -93,7 +93,7 @@ const Footer = () => {
                   className="flex items-center hover:text-orange-400 transition-colors"
                 >
                   <Mail className="w-5 h-5 mr-3 text-orange-400" />
-                  <span>brightfuturesfoundationuganda@gmail.com</span>
+                  <span>brightfuturesfoundation9@gmail.com</span>
                 </button>
                 <div className="space-y-1">
                   <button 
@@ -101,14 +101,7 @@ const Footer = () => {
                     className="flex items-center hover:text-orange-400 transition-colors"
                   >
                     <Phone className="w-5 h-5 mr-3 text-orange-400" />
-                    <span>+256 755 122707</span>
-                  </button>
-                  <button 
-                    onClick={() => redirectToWhatsApp("general")}
-                    className="flex items-center hover:text-orange-400 transition-colors"
-                  >
-                    <Phone className="w-5 h-5 mr-3 text-orange-400" />
-                    <span>+256 706 896040</span>
+                    <span>+256 727 129252</span>
                   </button>
                 </div>
               </div>
