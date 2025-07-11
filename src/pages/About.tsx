@@ -144,7 +144,7 @@ const About = () => {
                   </div>
                   <div className="bg-orange-50 rounded-xl p-6 border border-orange-200 text-center">
                     <h4 className="font-bold text-orange-900 mb-2">Phone</h4>
-                    <p className="text-orange-800">+256 772 477 774</p>
+                    <p className="text-orange-800">+256727129252</p>
                   </div>
                 </div>
               </motion.div>
