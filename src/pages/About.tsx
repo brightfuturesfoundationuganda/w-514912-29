@@ -1,4 +1,3 @@
-
 import { ArrowLeft, CheckCircle, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
@@ -6,21 +5,12 @@ import { useEffect } from 'react';
 import PageLayout from '@/components/PageLayout';
 import { Card, CardContent } from "@/components/ui/card";
 import SEO from '@/components/SEO';
-
 const About = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
-  
-  return (
-    <PageLayout>
-      <SEO 
-        title="About Us - Bright Futures Foundation | Our Mission & Vision" 
-        description="Learn about Bright Futures Foundation's mission to transform children's lives in Uganda through education, health, protection, and community development programs. Meet our team and discover our impact."
-        imageUrl="/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png"
-        keywords={['about bright futures foundation', 'Uganda children\'s foundation', 'mission and vision', 'foundation leadership', 'our story', 'foundation history', 'children foundation Uganda']}
-      />
+  return <PageLayout>
+      <SEO title="About Us - Bright Futures Foundation | Our Mission & Vision" description="Learn about Bright Futures Foundation's mission to transform children's lives in Uganda through education, health, protection, and community development programs. Meet our team and discover our impact." imageUrl="/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png" keywords={['about bright futures foundation', 'Uganda children\'s foundation', 'mission and vision', 'foundation leadership', 'our story', 'foundation history', 'children foundation Uganda']} />
       <section className="pt-24 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto">
           <div className="max-w-6xl mx-auto">
@@ -29,32 +19,40 @@ const About = () => {
               Back to Home
             </Link>
             
-            <motion.h1 
-              initial={{ opacity: 0, y: -10 }} 
-              animate={{ opacity: 1, y: 0 }} 
-              transition={{ duration: 0.5 }} 
-              className="text-4xl font-bold mb-6"
-            >
+            <motion.h1 initial={{
+            opacity: 0,
+            y: -10
+          }} animate={{
+            opacity: 1,
+            y: 0
+          }} transition={{
+            duration: 0.5
+          }} className="text-4xl font-bold mb-6">
               About Bright Futures Foundation
             </motion.h1>
             
             <div className="prose prose-lg max-w-none">
-              <motion.p 
-                initial={{ opacity: 0 }} 
-                animate={{ opacity: 1 }} 
-                transition={{ duration: 0.5, delay: 0.2 }} 
-                className="text-xl text-gray-600 mb-12"
-              >
+              <motion.p initial={{
+              opacity: 0
+            }} animate={{
+              opacity: 1
+            }} transition={{
+              duration: 0.5,
+              delay: 0.2
+            }} className="text-xl text-gray-600 mb-12">
                 Bright Futures Foundation is a registered foundation in Uganda dedicated to transforming the lives of children through comprehensive care, education, and community development programs.
               </motion.p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
-                <motion.div 
-                  initial={{ opacity: 0, x: -20 }} 
-                  animate={{ opacity: 1, x: 0 }} 
-                  transition={{ duration: 0.6 }}
-                  className="space-y-6"
-                >
+                <motion.div initial={{
+                opacity: 0,
+                x: -20
+              }} animate={{
+                opacity: 1,
+                x: 0
+              }} transition={{
+                duration: 0.6
+              }} className="space-y-6">
                   <h2 className="text-3xl font-bold">Our Mission</h2>
                   <p className="text-gray-600">
                     To provide holistic care, quality education, and protection for children in Uganda, 
@@ -62,12 +60,16 @@ const About = () => {
                   </p>
                 </motion.div>
                 
-                <motion.div
-                  initial={{ opacity: 0, x: 20 }} 
-                  animate={{ opacity: 1, x: 0 }} 
-                  transition={{ duration: 0.6, delay: 0.2 }}
-                  className="bg-gray-50 rounded-2xl p-8 border border-gray-100"
-                >
+                <motion.div initial={{
+                opacity: 0,
+                x: 20
+              }} animate={{
+                opacity: 1,
+                x: 0
+              }} transition={{
+                duration: 0.6,
+                delay: 0.2
+              }} className="bg-gray-50 rounded-2xl p-8 border border-gray-100">
                   <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
                   <p className="text-gray-600 mb-6">
                     A Uganda where every child has access to quality education, healthcare, protection, 
@@ -91,12 +93,16 @@ const About = () => {
                 </motion.div>
               </div>
               
-              <motion.div 
-                initial={{ opacity: 0, y: 20 }} 
-                animate={{ opacity: 1, y: 0 }} 
-                transition={{ duration: 0.6, delay: 0.4 }}
-                className="mb-16"
-              >
+              <motion.div initial={{
+              opacity: 0,
+              y: 20
+            }} animate={{
+              opacity: 1,
+              y: 0
+            }} transition={{
+              duration: 0.6,
+              delay: 0.4
+            }} className="mb-16">
                 <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                 <div className="bg-white rounded-xl border border-gray-200 p-8 shadow-sm mb-8">
                   <p className="text-gray-600 mb-4">
@@ -116,12 +122,16 @@ const About = () => {
                 </div>
               </motion.div>
 
-              <motion.div 
-                initial={{ opacity: 0, y: 20 }} 
-                animate={{ opacity: 1, y: 0 }} 
-                transition={{ duration: 0.6, delay: 1.0 }}
-                className="mb-16"
-              >
+              <motion.div initial={{
+              opacity: 0,
+              y: 20
+            }} animate={{
+              opacity: 1,
+              y: 0
+            }} transition={{
+              duration: 0.6,
+              delay: 1.0
+            }} className="mb-16">
                 <h2 className="text-3xl font-bold mb-6">Contact Information</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   <div className="bg-blue-50 rounded-xl p-6 border border-blue-200 text-center">
@@ -130,7 +140,7 @@ const About = () => {
                   </div>
                   <div className="bg-green-50 rounded-xl p-6 border border-green-200 text-center">
                     <h4 className="font-bold text-green-900 mb-2">Email</h4>
-                    <p className="text-green-800">info@brightfuturesfoundation.org</p>
+                    <p className="text-green-800">brightfuturesfoundation9@gmail.com</p>
                   </div>
                   <div className="bg-orange-50 rounded-xl p-6 border border-orange-200 text-center">
                     <h4 className="font-bold text-orange-900 mb-2">Phone</h4>
@@ -149,8 +159,6 @@ const About = () => {
           </div>
         </div>
       </section>
-    </PageLayout>
-  );
+    </PageLayout>;
 };
-
 export default About;
