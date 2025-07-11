@@ -8,7 +8,7 @@ import SEO from '@/components/SEO';
 const Resources = () => {
   const handleWhatsAppRequest = (documentName: string) => {
     const message = `Hello, I would like to request ${documentName} from Bright Futures Foundation.`;
-    const whatsappUrl = `https://wa.me/+256772477774?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/256727129252?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 

@@ -180,14 +180,20 @@ const Careers = () => {
                     <h3 className="text-xl font-bold text-gray-900">Grace Nambi</h3>
                     <p className="text-gray-600 mb-4">HR & Operations Manager</p>
                     <div className="flex flex-col space-y-3">
-                      <a href="mailto:hr@brightfuturesfoundation.org" className="flex items-center text-gray-700 hover:text-orange-600">
+                      <button 
+                        onClick={() => redirectToWhatsApp("general")}
+                        className="flex items-center text-gray-700 hover:text-orange-600"
+                      >
                         <Mail className="w-5 h-5 mr-2" />
-                        hr@brightfuturesfoundation.org
-                      </a>
-                      <a href="tel:+256772477774" className="flex items-center text-gray-700 hover:text-orange-600">
+                        brightfuturesfoundation9@gmail.com
+                      </button>
+                      <button 
+                        onClick={() => redirectToWhatsApp("general")}
+                        className="flex items-center text-gray-700 hover:text-orange-600"
+                      >
                         <Phone className="w-5 h-5 mr-2" />
-                        +256 772 477 774
-                      </a>
+                        +256727129252
+                      </button>
                     </div>
                   </div>
                 </div>

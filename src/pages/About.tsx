@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 import PageLayout from '@/components/PageLayout';
 import { Card, CardContent } from "@/components/ui/card";
 import SEO from '@/components/SEO';
+import { redirectToWhatsApp } from '@/utils/whatsappHelper';
 const About = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -144,7 +145,12 @@ const About = () => {
                   </div>
                   <div className="bg-orange-50 rounded-xl p-6 border border-orange-200 text-center">
                     <h4 className="font-bold text-orange-900 mb-2">Phone</h4>
-                    <p className="text-orange-800">+256727129252</p>
+                    <button 
+                      onClick={() => redirectToWhatsApp("general")}
+                      className="text-orange-800 hover:text-orange-600 transition-colors"
+                    >
+                      +256727129252
+                    </button>
                   </div>
                 </div>
               </motion.div>
