@@ -1,4 +1,3 @@
-
 import PageLayout from '@/components/PageLayout';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -6,6 +5,7 @@ import { BookOpen, Heart, Shield, Users, Utensils, Briefcase, ArrowRight } from 
 import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
 import SEO from '@/components/SEO';
+import { redirectToWhatsApp } from '@/utils/whatsappHelper';
 
 const Programs = () => {
   const programs = [
@@ -127,7 +127,11 @@ const Programs = () => {
                     <span className="text-sm font-medium text-green-600 bg-green-50 px-3 py-1 rounded-full">
                       {program.served}
                     </span>
-                    <Button variant="outline" size="sm">
+                    <Button 
+                      variant="outline" 
+                      size="sm"
+                      onClick={() => redirectToWhatsApp("programs", `Hello, I would like to learn more about the ${program.title} program at Bright Futures Foundation.`)}
+                    >
                       Learn More
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </Button>
