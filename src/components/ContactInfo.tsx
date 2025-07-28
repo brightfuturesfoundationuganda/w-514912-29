@@ -35,7 +35,7 @@ const ContactInfo = () => {
                     className="flex items-center text-gray-700 hover:text-orange-600 transition-colors"
                   >
                     <Phone className="w-5 h-5 mr-2" />
-                    +256 727 129252
+                    +256 766 771821
                   </button>
                 </div>
               </div>

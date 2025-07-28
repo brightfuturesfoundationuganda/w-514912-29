@@ -1,5 +1,5 @@
 
-export const WHATSAPP_NUMBER = "+256727129252";
+export const WHATSAPP_NUMBER = "+256766771821";
 
 export type MessageType = 
   | "general"
