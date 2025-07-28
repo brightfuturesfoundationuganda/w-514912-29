@@ -192,7 +192,7 @@ const Careers = () => {
                         className="flex items-center text-gray-700 hover:text-orange-600"
                       >
                         <Phone className="w-5 h-5 mr-2" />
-                        +256727129252
+                        +256766771821
                       </button>
                     </div>
                   </div>

@@ -149,7 +149,7 @@ const About = () => {
                       onClick={() => redirectToWhatsApp("general")}
                       className="text-orange-800 hover:text-orange-600 transition-colors"
                     >
-                      +256727129252
+                      +256766771821
                     </button>
                   </div>
                 </div>
