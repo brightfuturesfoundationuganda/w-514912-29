@@ -4,20 +4,20 @@ export const createOrganizationStructuredData = () => ({
   '@type': 'NGO',
   name: 'Bright Futures Foundation',
   alternateName: 'Bright Futures Foundation Uganda',
-  url: 'https://brightfuturesfoundation.online',
-  logo: 'https://brightfuturesfoundation.online/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png',
+  url: 'https://www.brightfuturesfoundationuganda.org',
+  logo: 'https://www.brightfuturesfoundationuganda.org/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png',
   description: 'Transforming children\'s lives through love, care, education, and community development in Uganda',
   contactPoint: [
     {
       '@type': 'ContactPoint',
       contactType: 'customer service',
-      email: 'info@brightfuturesfoundation.org',
+      email: 'info@brightfuturesfoundationuganda.org',
       availableLanguage: ['en', 'sw']
     },
     {
       '@type': 'ContactPoint',
       contactType: 'donations',
-      email: 'donate@brightfuturesfoundation.org'
+      email: 'donate@brightfuturesfoundationuganda.org'
     }
   ],
   address: {
@@ -67,18 +67,18 @@ export const createBlogPostStructuredData = (
   author: {
     '@type': 'Organization',
     name: author || 'Bright Futures Foundation',
-    url: 'https://brightfuturesfoundation.online'
+    url: 'https://www.brightfuturesfoundationuganda.org'
   },
   publisher: {
     '@type': 'Organization',
     name: 'Bright Futures Foundation',
     logo: {
       '@type': 'ImageObject',
-      url: 'https://brightfuturesfoundation.online/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png',
+      url: 'https://www.brightfuturesfoundationuganda.org/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png',
       width: 512,
       height: 512
     },
-    url: 'https://brightfuturesfoundation.online'
+    url: 'https://www.brightfuturesfoundationuganda.org'
   },
   description: description,
   keywords: keywords.join(', '),

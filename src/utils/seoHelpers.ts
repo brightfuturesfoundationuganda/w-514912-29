@@ -1,5 +1,5 @@
 
-export const createAbsoluteUrl = (path: string, baseUrl: string = 'https://brightfuturesfoundation.online'): string => {
+export const createAbsoluteUrl = (path: string, baseUrl: string = 'https://www.brightfuturesfoundationuganda.org'): string => {
   return path.startsWith('http') ? path : `${baseUrl}${path}`;
 };
 
