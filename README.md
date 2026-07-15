@@ -12,4 +12,4 @@ BRIGHT FUTURES FOUNDATION is a Ugandan foundation dedicated to improving the liv
 
 We are committed to making a significant social impact and upholding children's rights in Uganda.
 
-For more information, visit our official website: [brightfuturesfoundation.org](https://brightfuturesfoundation.org)
+For more information, visit our official website: [brightfuturesfoundationuganda.org](https://www.brightfuturesfoundationuganda.org)

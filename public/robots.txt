@@ -1,7 +1,7 @@
 
 User-agent: *
 Allow: /
-Sitemap: https://brightfuturesfoundation.online/sitemap.xml
+Sitemap: https://www.brightfuturesfoundationuganda.org/sitemap.xml
 
 # Optimize crawling for foundation content
 Crawl-delay: 5
